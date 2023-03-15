@@ -1,0 +1,129 @@
+/*?? Small Css reset*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*?? Basic Css setup*/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+}
+h1 {
+  font-size: 3.75rem;
+}
+h2 {
+  font-size: 2.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/*?? Color setup */
+
+:root {
+  --primary-color: #1c2331;
+  --basic-color: #1c6cb8;
+  --secondary-color: #0a2a3e;
+  --success-color: #00a550;
+  --info-color: #6ab8c2;
+  --hovered-color: #dc4e01;
+  --warning-color: #f70402;
+  --danger-color: #dc3545;
+  --white-color: #ecf2ff;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --yellow-color: #ffff00;
+}
+
+/*!! Link color setup*/
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--warning-color);
+}
+
+a:active {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/*?? Setup of the basic layout*/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 20px;
+}
+
+.nav {
+  background-color: var(--light-color);
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.article {
+  flex-basis: calc(33.33% - 20px);
+}
+
+.sidebar {
+  flex-basis: calc(25% - 20px);
+}
+
+.footer {
+  background-color: var(--basic-color);
+  color: var(--light-color);
+  padding: 20px;
+}

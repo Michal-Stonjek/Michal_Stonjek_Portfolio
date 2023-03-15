@@ -1,0 +1,1202 @@
+<!--!! old photo galerry-->
+
+
+<section class="Plány">
+	
+	<h2 class="name plan-nadpis h2">Plán</h2>
+
+	<p class="popis-plánu paragraf wd30">
+		Bez plánování se nedá nic vyrobit, ani robot v našem kroužku, a proto jsme plán vytvořili, aktualizovali a v některých bodech I dodrželi. (jako třeba vánoce, ty se nám povedly úplně na čas).
+	</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="gallerie-plán">
+	<!-- prostor gallerie -->
+<div class="container">
+
+  <!-- obrázky a čísla -->
+  <div class="mySlides row">
+    <div class="numbertext">1 / 4</div>
+      <img src="img/plan/fotka1.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides row">
+    <div class="numbertext">2 / 4</div>
+      <img src="img/plan/fotka2.jpg" style="width:50%;">
+  </div>
+
+  <div class="mySlides row">
+    <div class="numbertext">3 / 4</div>
+      <img src="img/plan/fotka3.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides row">
+    <div class="numbertext">4 / 4</div>
+      <img src="img/plan/fotka4.jpg" style="width:50%">
+  </div>
+
+  <!-- Next a prev tlačítka -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</section>
+
+
+
+
+<section class="script-gallerie-plán">
+  	<!-- script -->
+  
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<!-- konec scriptu -->
+  </section>
+
+
+
+
+
+
+
+
+<section class="loga">
+	
+	<h2 class="name logo-nadpis h2 ">Loga</h2>
+
+	<p class="popis-log paragraf wd30 mgr-l">Zde jsou návrhy členů kroužku do soutěže o budoucí logo kroužku.
+	</p>
+
+</section>
+
+
+<section class="gallerie-loga">
+	
+<!-- prostor gallerie -->
+<div class=" container2">
+
+  <!-- obrázky a čísla -->
+  <div class="mySlides2 row">
+    <div class="numbertext2">1 / 8</div>
+      <img src="img/loga/fotka1.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides2 row">
+    <div class="numbertext2">2 / 8</div>
+      <img src="img/loga/fotka2.jpg" style="width:50%;">
+  </div>
+
+  <div class="mySlides2 row">
+    <div class="numbertext2">3 / 8</div>
+      <img src="img/loga/fotka3.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides2 row">
+    <div class="numbertext2">4 / 8</div>
+      <img src="img/loga/fotka4.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides2 row">
+    <div class="numbertext2">5 / 8</div>
+      <img src="img/loga/fotka5.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides2 row">
+    <div class="numbertext2">6 / 8</div>
+      <img src="img/loga/fotka6.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides2 row">
+    <div class="numbertext2">7 / 8</div>
+      <img src="img/loga/fotka7.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides2 row">
+    <div class="numbertext2">8 / 8</div>
+      <img src="img/loga/fotka8.jpg" style="width:50%">
+  </div>
+
+  <!-- Next a prev tlačítka -->
+  <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+  <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+
+
+
+
+
+</section>
+
+<section class="script-gallerie-loga">
+  	<!-- script -->
+  
+<script>
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(o) {
+  showSlides2(slideIndex2 += o);
+}
+
+function currentSlide2(o) {
+  showSlides2(slideIndex2 = o);
+}
+
+function showSlides2(o) {
+  var i2;
+  var slides2 = document.getElementsByClassName("mySlides2");
+  var dots2 = document.getElementsByClassName("demo");
+  var captionText2 = document.getElementById("caption");
+  if (o > slides2.length) {slideIndex2 = 1}
+  if (o < 1) {slideIndex2 = slides2.length}
+  for (i2 = 0; i2 < slides2.length; i2++) {
+      slides2[i2].style.display = "none";
+  }
+  for (i2 = 0; i2 < dots2.length; i2++) {
+      dots2[i2].className = dots2[i2].className.replace(" active", "");
+  }
+  slides2[slideIndex2-1].style.display = "block";
+  dots2[slideIndex2-1].className += " active";
+  captionText2.innerHTML = dots2[slideIndex2-1].alt;
+}
+</script>
+
+
+<!-- konec scriptu -->
+  </section>
+
+
+
+<section class="tabule">
+	
+	<h2 class="name nadpis-tabule h2">Tabule</h2>
+
+	<p class="popis-tabule paragraf wd35">
+	Co je psáno to je dáno. Tabule je nezbytná pomůcka. Občas se na ní vyřádili všichni.</p>
+
+
+</section>
+
+
+
+<section class="gallerie-tabule">
+
+
+<!-- prostor gallerie -->
+<div class=" container3">
+
+  <!-- obrázky a čísla -->
+  <div class="mySlides3 row">
+    <div class="numbertext3">1 / 13</div>
+      <img src="img/tabule/fotka1.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">2 / 13</div>
+      <img src="img/tabule/fotka2.jpg" style="width:50%;">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">3 / 13</div>
+      <img src="img/tabule/fotka3.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">4 / 13</div>
+      <img src="img/tabule/fotka4.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">5 / 13</div>
+      <img src="img/tabule/fotka5.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">6 / 13</div>
+      <img src="img/tabule/fotka6.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">7 / 13</div>
+      <img src="img/tabule/fotka7.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">8 / 13</div>
+      <img src="img/tabule/fotka8.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">9 / 13</div>
+      <img src="img/tabule/fotka9.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">10 / 13</div>
+      <img src="img/tabule/fotka10.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">11 / 13</div>
+      <img src="img/tabule/fotka11.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">12 / 13</div>
+      <img src="img/tabule/fotka12.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides3 row">
+    <div class="numbertext3">13 / 13</div>
+      <img src="img/tabule/fotka13.jpg" style="width:50%">
+  </div>
+
+  <!-- Next a prev tlačítka -->
+  <a class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
+  <a class="next3" onclick="plusSlides3(1)">&#10095;</a>
+
+</section>
+
+
+<section class="script-gallerie-tabule">
+  	<!-- script -->
+  
+<script>
+var slideIndex3 = 1;
+showSlides3(slideIndex3);
+
+function plusSlides3(p) {
+  showSlides3(slideIndex3 += p);
+}
+
+function currentSlide1(p) {
+  showSlides3(slideIndex3 = p);
+}
+
+function showSlides3(p) {
+  var i3;
+  var slides3 = document.getElementsByClassName("mySlides3");
+  var dots3 = document.getElementsByClassName("demo");
+  var captionText3 = document.getElementById("caption");
+  if (p > slides3.length) {slideIndex3 = 1}
+  if (p < 1) {slideIndex3 = slides3.length}
+  for (i3 = 0; i3 < slides3.length; i3++) {
+      slides3[i3].style.display = "none";
+  }
+  for (i3 = 0; i3 < dots3.length; i3++) {
+      dots3[i3].className = dots3[i3].className.replace(" active", "");
+  }
+  slides3[slideIndex3-1].style.display = "block";
+  dots3[slideIndex3-1].className += " active";
+  captionText3.innerHTML = dots3[slideIndex3-1].alt;
+}
+</script>
+
+
+<!-- konec scriptu -->
+  </section>
+
+
+<section class="roboti">
+	
+<h2 class="name roboti-nadpis h2">Roboti</h2>
+
+<p class="roboti-popis paragraf wd35">
+	Vývoj robotů je strastiplná cesta. Následující fotografie prezentují roboty spolu se svými hrdými tvůrci.
+</p>
+
+
+
+
+</section>
+
+
+<section class="gallerie-roboti ">
+
+
+<!-- prostor gallerie -->
+<div class=" container4">
+
+  <!-- obrázky a čísla -->
+  <div class="mySlides4 row">
+    <div class="numbertext4">1 / 25</div>
+      <img src="img/rrobot/fotka1.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">2 / 25</div>
+      <img src="img/rrobot/fotka2.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">3 / 25</div>
+      <img src="img/rrobot/fotka3.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">4 / 25</div>
+      <img src="img/rrobot/fotka4.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">5 / 25</div>
+      <img src="img/rrobot/fotka5.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">6/ 25</div>
+      <img src="img/rrobot/fotka6.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">7 / 25</div>
+      <img src="img/rrobot/fotka7.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">8 / 25</div>
+      <img src="img/rrobot/fotka8.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">9 / 25</div>
+      <img src="img/rrobot/fotka9.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">10 / 25</div>
+      <img src="img/rrobot/fotka10.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">11 / 25</div>
+      <img src="img/rrobot/fotka11.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">12 / 25</div>
+      <img src="img/rrobot/fotka12.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">13 / 25</div>
+      <img src="img/rrobot/fotka13.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">14 / 25</div>
+      <img src="img/rrobot/fotka14.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">15 / 25</div>
+      <img src="img/rrobot/fotka15.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">16 / 25</div>
+      <img src="img/rrobot/fotka16.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">17 / 25</div>
+      <img src="img/rrobot/fotka17.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">18 / 25</div>
+      <img src="img/rrobot/fotka18.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">19 / 25</div>
+      <img src="img/rrobot/fotka19.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">20 / 25</div>
+      <img src="img/rrobot/fotka20.jpg" style="width:50%">
+  </div>
+
+<div class="mySlides4 row">
+    <div class="numbertext4">21 / 25</div>
+      <img src="img/rrobot/fotka21.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">22 / 25</div>
+      <img src="img/rrobot/fotka22.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">23 / 25</div>
+      <img src="img/rrobot/fotka23.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">24 / 25</div>
+      <img src="img/rrobot/fotka24.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides4 row">
+    <div class="numbertext4">25 / 25</div>
+      <img src="img/rrobot/fotka25.jpg" style="width:50%">
+  </div>
+
+
+  
+
+  <!-- Next a prev tlačítka -->
+  <a class="prev4" onclick="plusSlides4(-1)">&#10094;</a>
+  <a class="next4" onclick="plusSlides4(1)">&#10095;</a>
+
+</section>
+
+
+
+<section class="script-gallerie-roboti">
+  	<!-- script -->
+  
+<script>
+var slideIndex4 = 1;
+showSlides4(slideIndex4);
+
+function plusSlides4(q) {
+  showSlides4(slideIndex4 += q);
+}
+
+function currentSlide4(q) {
+  showSlides4(slideIndex4 = q);
+}
+
+function showSlides4(q) {
+  var i4;
+  var slides4 = document.getElementsByClassName("mySlides4");
+  var dots4 = document.getElementsByClassName("demo");
+  var captionText4 = document.getElementById("caption");
+  if (q > slides4.length) {slideIndex4 = 1}
+  if (q < 1) {slideIndex4 = slides4.length}
+  for (i4 = 0; i4 < slides4.length; i4++) {
+      slides4[i4].style.display = "none";
+  }
+  for (i4 = 0; i4 < dots4.length; i4++) {
+      dots4[i4].className = dots4[i4].className.replace(" active", "");
+  }
+  slides4[slideIndex4-1].style.display = "block";
+  dots4[slideIndex4-1].className += " active";
+  captionText4.innerHTML = dots4[slideIndex4-1].alt;
+}
+</script>
+
+
+<!-- konec scriptu -->
+  </section>
+
+
+<section class="mezera-pro-scroll-robotic-day">
+	
+	<div class="mezera-robotic-day"></div>
+
+</section>
+
+
+
+
+
+
+<section class="robotic-day">
+	
+	<h2 class="robotic-day-nadpis name jq--robotic-day h2">Robotic day</h2>
+
+	<p class="robotic-day-popis paragraf wd35">
+		Několik fotek z akce Robotic day:
+	</p>
+
+
+
+</section>
+
+<section class="gallerie-robotic-day">
+	
+<!-- prostor gallerie -->
+<div class=" container5">
+
+  <!-- obrázky a čísla -->
+  <div class="mySlides5 row">
+    <div class="numbertext5">1 / 49</div>
+      <img src="img/rden/fotka1.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides5 row">
+    <div class="numbertext5">2 / 49</div>
+      <img src="img/rden/fotka2.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides5 row">
+    <div class="numbertext5">3 / 49</div>
+      <img src="img/rden/fotka3.jpg" style="width:50%">
+  </div>
+
+
+  <div class="mySlides5 row">
+    <div class="numbertext5">4 / 49</div>
+      <img src="img/rden/fotka4.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides5 row">
+    <div class="numbertext5">5 / 49</div>
+      <img src="img/rden/fotka5.jpg" style="width:50%">
+  </div>
+
+	<div class="mySlides5 row">
+	    <div class="numbertext5">6 / 49</div>
+	      <img src="img/rden/fotka6.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">7 / 49</div>
+	      <img src="img/rden/fotka7.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">8 / 49</div>
+	      <img src="img/rden/fotka8.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">9 / 49</div>
+	      <img src="img/rden/fotka9.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">10 / 49</div>
+	      <img src="img/rden/fotka10.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">11 / 49</div>
+	      <img src="img/rden/fotka11.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">12 / 49</div>
+	      <img src="img/rden/fotka12.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">13 / 49</div>
+	      <img src="img/rden/fotka13.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">14 / 49</div>
+	      <img src="img/rden/fotka14.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">15 / 49</div>
+	      <img src="img/rden/fotka15.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">16 / 49</div>
+	      <img src="img/rden/fotka16.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">17 / 49</div>
+	      <img src="img/rden/fotka17.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">18 / 49</div>
+	      <img src="img/rden/fotka18.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">19 / 49</div>
+	      <img src="img/rden/fotka19.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">20 / 49</div>
+	      <img src="img/rden/fotka20.jpg" style="width:50%">
+	  </div>
+
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">21 / 49</div>
+	      <img src="img/rden/fotka21.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">22 / 49</div>
+	      <img src="img/rden/fotka22.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">23 / 49</div>
+	      <img src="img/rden/fotka23.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">24 / 49</div>
+	      <img src="img/rden/fotka24.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">25 / 49</div>
+	      <img src="img/rden/fotka25.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">26 / 49</div>
+	      <img src="img/rden/fotka26.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">27 / 49</div>
+	      <img src="img/rden/fotka27.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">28 / 49</div>
+	      <img src="img/rden/fotka28.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">29 / 49</div>
+	      <img src="img/rden/fotka29.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">30 / 49</div>
+	      <img src="img/rden/fotka30.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">31 / 49</div>
+	      <img src="img/rden/fotka31.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">32 / 49</div>
+	      <img src="img/rden/fotka32.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">33 / 49</div>
+	      <img src="img/rden/fotka33.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">34 / 49</div>
+	      <img src="img/rden/fotka34.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">35 / 49</div>
+	      <img src="img/rden/fotka35.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">36 / 49</div>
+	      <img src="img/rden/fotka36.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">37 / 49</div>
+	      <img src="img/rden/fotka37.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">38 / 49</div>
+	      <img src="img/rden/fotka38.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">39 / 49</div>
+	      <img src="img/rden/fotka39.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">40 / 49</div>
+	      <img src="img/rden/fotka40.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">41 / 49</div>
+	      <img src="img/rden/fotka41.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">42 / 49</div>
+	      <img src="img/rden/fotka42.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">43 / 49</div>
+	      <img src="img/rden/fotka43.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">44 / 49</div>
+	      <img src="img/rden/fotka44.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">45 / 49</div>
+	      <img src="img/rden/fotka45.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">46 / 49</div>
+	      <img src="img/rden/fotka46.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">47 / 49</div>
+	      <img src="img/rden/fotka47.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">48 / 49</div>
+	      <img src="img/rden/fotka48.jpg" style="width:50%">
+	  </div>
+
+	  <div class="mySlides5 row">
+	    <div class="numbertext5">49 / 49</div>
+	      <img src="img/rden/fotka49.jpg" style="width:50%">
+	  </div>
+
+
+
+
+  <!-- Next a prev tlačítka -->
+  <a class="prev5" onclick="plusSlides5(-1)">&#10094;</a>
+  <a class="next5" onclick="plusSlides5(1)">&#10095;</a>
+
+
+
+
+
+</section>
+
+<section class="script-gallerie-robotic-day">
+  	<!-- script -->
+  
+<script>
+var slideIndex5 = 1;
+showSlides5(slideIndex5);
+
+function plusSlides5(r) {
+  showSlides5(slideIndex5 += r);
+}
+
+function currentSlide5(r) {
+  showSlides5(slideIndex5 = r);
+}
+
+function showSlides5(r) {
+  var i5;
+  var slides5 = document.getElementsByClassName("mySlides5");
+  var dots5 = document.getElementsByClassName("demo");
+  var captionText5 = document.getElementById("caption");
+  if (r > slides5.length) {slideIndex5 = 1}
+  if (r < 1) {slideIndex5 = slides5.length}
+  for (i5 = 0; i5 < slides5.length; i5++) {
+      slides5[i5].style.display = "none";
+  }
+  for (i5 = 0; i5 < dots5.length; i5++) {
+      dots5[i5].className = dots5[i5].className.replace(" active", "");
+  }
+  slides5[slideIndex5-1].style.display = "block";
+  dots5[slideIndex5-1].className += " active";
+  captionText5.innerHTML = dots5[slideIndex5-1].alt;
+}
+</script>
+
+
+<!-- konec scriptu -->
+  </section>
+
+<section class="robotem-rovne">
+	
+	<h2 class="robotem-rovne-nadpis name h2">Robotem rovně písek 2013</h2>
+
+	<p class="robotem-rovne-popis paragraf wd35">
+		
+		Naše první účast na prestižním robotím závodě ve městě písku. Jet robotem opravdu rovně 315 metrů je věda. Ale sedmé místo ze 14 je na první závod vynikající výsledek.
+	</p>
+
+</section>
+
+
+<section class="gallerie-robotem-rovne">
+	<!-- prostor gallerie -->
+<div class="container6">
+
+  <!-- obrázky a čísla -->
+  <div class="mySlides6 row">
+    <div class="numbertext6">1 / 51</div>
+      <img src="img/rrovne/fotka1.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">2 / 51</div>
+      <img src="img/rrovne/fotka2.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">3 / 51</div>
+      <img src="img/rrovne/fotka3.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">4 / 51</div>
+      <img src="img/rrovne/fotka4.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">5 / 51</div>
+      <img src="img/rrovne/fotka5.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">6 / 51</div>
+      <img src="img/rrovne/fotka6.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">7 / 51</div>
+      <img src="img/rrovne/fotka7.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">8 / 51</div>
+      <img src="img/rrovne/fotka8.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">9 / 51</div>
+      <img src="img/rrovne/fotka9.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">10 / 51</div>
+      <img src="img/rrovne/fotka10.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">11 / 51</div>
+      <img src="img/rrovne/fotka11.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">12 / 51</div>
+      <img src="img/rrovne/fotka12.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">13 / 51</div>
+      <img src="img/rrovne/fotka13.jpg" style="width:50%">
+  </div>
+
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">14 / 51</div>
+      <img src="img/rrovne/fotka14.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">15 / 51</div>
+      <img src="img/rrovne/fotka15.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">16 / 51</div>
+      <img src="img/rrovne/fotka16.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">17 / 51</div>
+      <img src="img/rrovne/fotka17.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">18 / 51</div>
+      <img src="img/rrovne/fotka18.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">19 / 51</div>
+      <img src="img/rrovne/fotka19.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">20 / 51</div>
+      <img src="img/rrovne/fotka20.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">21 / 51</div>
+      <img src="img/rrovne/fotka21.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">22 / 51</div>
+      <img src="img/rrovne/fotka22.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">23 / 51</div>
+      <img src="img/rrovne/fotka23.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">24 / 51</div>
+      <img src="img/rrovne/fotka24.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">25 / 51</div>
+      <img src="img/rrovne/fotka25.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">26 / 51</div>
+      <img src="img/rrovne/fotka26.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">27 / 51</div>
+      <img src="img/rrovne/fotka27.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">28 / 51</div>
+      <img src="img/rrovne/fotka28.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">29 / 51</div>
+      <img src="img/rrovne/fotka29.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">30 / 51</div>
+      <img src="img/rrovne/fotka30.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">31 / 51</div>
+      <img src="img/rrovne/fotka31.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">32 / 51</div>
+      <img src="img/rrovne/fotka32.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">33 / 51</div>
+      <img src="img/rrovne/fotka33.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">34 / 51</div>
+      <img src="img/rrovne/fotka34.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">35 / 51</div>
+      <img src="img/rrovne/fotka35.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">36 / 51</div>
+      <img src="img/rrovne/fotka36.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">37 / 51</div>
+      <img src="img/rrovne/fotka37.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">38 / 51</div>
+      <img src="img/rrovne/fotka38.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">39 / 51</div>
+      <img src="img/rrovne/fotka39.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">40 / 51</div>
+      <img src="img/rrovne/fotka40.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">41 / 51</div>
+      <img src="img/rrovne/fotka41.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">42 / 51</div>
+      <img src="img/rrovne/fotka42.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">43 / 51</div>
+      <img src="img/rrovne/fotka43.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">44 / 51</div>
+      <img src="img/rrovne/fotka44.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">45 / 51</div>
+      <img src="img/rrovne/fotka45.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">46 / 51</div>
+      <img src="img/rrovne/fotka46.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">47 / 51</div>
+      <img src="img/rrovne/fotka47.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">48 / 51</div>
+      <img src="img/rrovne/fotka48.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">49 / 51</div>
+      <img src="img/rrovne/fotka49.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">50 / 51</div>
+      <img src="img/rrovne/fotka50.jpg" style="width:50%">
+  </div>
+
+  <div class="mySlides6 row">
+    <div class="numbertext6">51 / 51</div>
+      <img src="img/rrovne/fotka51.jpg" style="width:50%">
+  </div>
+
+  
+
+  <div class="space"></div>
+
+
+
+  
+  <!-- Next a prev tlačítka -->
+  <a class="prev6" onclick="plusSlides6(-1)">&#10094;</a>
+  <a class="next6" onclick="plusSlides6(1)">&#10095;</a>
+
+</section>
+
+
+
+
+<section class="script-gallerie-robotem-rovne">
+  	<!-- script -->
+  
+<script>
+var slideIndex6 = 1;
+showSlides6(slideIndex6);
+
+function plusSlides6(s) {
+  showSlides6(slideIndex6 += s);
+}
+
+function currentSlide6(s) {
+  showSlides6(slideIndex6 = s);
+}
+
+function showSlides6(s) {
+  var i6;
+  var slides6 = document.getElementsByClassName("mySlides6");
+  var dots6 = document.getElementsByClassName("demo");
+  var captionText6 = document.getElementById("caption");
+  if (s > slides6.length) {slideIndex6 = 1}
+  if (s < 1) {slideIndex6 = slides6.length}
+  for (i6 = 0; i6 < slides6.length; i6++) {
+      slides6[i6].style.display = "none";
+  }
+  for (i6 = 0; i6 < dots6.length; i6++) {
+      dots6[i6].className = dots6[i6].className.replace(" active", "");
+  }
+  slides6[slideIndex6-1].style.display = "block";
+  dots6[slideIndex6-1].className += " active";
+  captionText6.innerHTML = dots6[slideIndex6-1].alt;
+}
+</script>
+
+
+<!-- konec scriptu -->
+  </section>
+

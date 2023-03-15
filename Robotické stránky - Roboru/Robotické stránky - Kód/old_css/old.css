@@ -1,0 +1,1531 @@
+/*old css */
+
+/*********************** upozornění na začátek roboru*********/
+.vyokno {
+  margin-top: 6%;
+  margin-left: 10%;
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  z-index: 100000000000;
+  border-radius: 25px;
+  background: url(img/vyokno_obr.jpg);
+  background-size: cover;
+}
+
+.vyokno p {
+  margin-top: 7%;
+  margin-left: 6%;
+  font-size: 53px;
+  text-align: justify;
+  font-weight: bold;
+  font-family: arial;
+  color: black;
+  margin-bottom: 8%;
+}
+
+.potvrzení {
+  font-size: 40px;
+  font-family: Arial;
+  margin-left: 19%;
+  text-decoration: none;
+  background-color: #0d5c63;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/***** pozadí ********/
+
+.pozadí {
+  max-width: 100%;
+
+  z-index: -1;
+}
+
+/*** nadpis ***/
+
+.Nadpis-stránky {
+  display: inline-block;
+
+  width: 79%;
+}
+.Nadpis-stránky h1 {
+  font-size: 80px;
+  color: #0d5c63;
+  font-family: Arial;
+  margin-top: 110px;
+  margin-bottom: 25px;
+  margin-left: 20%;
+}
+
+/** tlačítka **/
+
+.btn1,
+.btn2 {
+  color: #0d5c63;
+  text-decoration: none;
+
+  font-size: 2rem;
+  border: 1px solid #dc4f00;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  padding: 0.75rem;
+  background-color: #0d5c63;
+  margin-top: 5rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  font-family: Arial;
+}
+
+.btn1:link,
+.btn1:visited {
+  color: #fff;
+
+  text-decoration: none;
+  border: 4px solid transparent;
+}
+
+.btn1:hover,
+.btn1:active {
+  border: 4px solid #dc4f00;
+  transition: border 1s;
+}
+
+.btn2:link,
+.btn2:visited {
+  color: #fff;
+
+  text-decoration: none;
+  border: 4px solid transparent;
+}
+
+.btn2:hover,
+.btn2:active {
+  border: 4px solid #dc4f00;
+  transition: border 1s;
+}
+
+/*** podnadpis ***/
+.popis h2 {
+  width: 40%;
+  color: #0d5c63;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  margin-left: 30%;
+  font-family: Arial;
+}
+
+.popis h2:after {
+  content: "";
+  display: block;
+  max-width: 150px;
+  border-bottom: 2px solid #dc4f00;
+  margin: 10px auto;
+}
+
+/*** program**/
+
+.paragraf {
+  max-width: 40%;
+  text-align: justify;
+  font-family: Arial;
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 30%;
+}
+
+.nad2 {
+  color: #0d5c63;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: Arial;
+  margin-left: 0%;
+  margin-bottom: 20px;
+}
+
+.program h2:after {
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: 2px solid #dc4f00;
+  margin: 10px auto;
+}
+
+.program-věci {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 24px;
+  font-family: Arial;
+  list-style-type: none;
+  border: 2px solid #0d5c63;
+  margin-bottom: 2rem;
+}
+/** zahájení ***/
+
+.nad3 {
+  margin-left: -0%;
+}
+
+.name {
+  color: #0d5c63;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: Arial;
+  margin-bottom: 5rem;
+}
+
+.name:after {
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: 2px solid #dc4f00;
+  margin: 10px auto;
+}
+
+.start {
+  width: 38%;
+  margin-left: 30%;
+  border: 2px solid #0d5c63;
+  font-size: 25px;
+  padding: 10px;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 20px;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 5rem;
+}
+
+.oddělení {
+  max-width: 90%;
+  height: 2px;
+  background-color: #0d5c63;
+  position: relative;
+  top: 210%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.nad4 {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-size: 38px;
+  font-family: Arial;
+  color: #0d5c63;
+}
+
+/*** domácí úkoly ***/
+
+.nad5 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-left: 8%;
+}
+
+.seznam-úkolů {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  max-width: 38%;
+  height: 130px;
+  font-family: Arial;
+  font-size: 25px;
+  border: 2px solid #0d5c63;
+  padding: 10px;
+  padding-right: 5px;
+  margin-top: 5rem;
+  margin-left: 30%;
+  margin-bottom: 5rem;
+}
+
+/*** kdy neni?*/
+
+.nad6 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.kalendář {
+  max-width: 28%;
+  margin-top: 40px;
+  margin-left: 37%;
+}
+
+.kalendář {
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.kalendář2 {
+  padding: 2rem !important;
+  max-width: 40%;
+  font-family: Arial;
+  font-size: 25px;
+  border: 2px solid #0d5c63;
+  margin-bottom: 5rem;
+}
+
+/**** patička ****/
+
+/*** konec první stránky *****/
+
+/******* druhá stránka **/
+
+/** nadpis organizace **/
+
+.nadpis-organizace {
+  font-size: 75px;
+  color: #0d5c63;
+  font-family: Arial;
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/*** tlačítko***/
+
+.btn3 {
+  margin-left: 25%;
+  margin-top: -10%;
+}
+
+/*** zahájení ***/
+
+.zahájení2 h2 {
+  margin-top: 3%;
+  font-family: Arial;
+}
+
+.zahájení2 p {
+  margin-top: 3rem;
+  width: 45%;
+  margin-left: 36rem;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+/*** termín a místo zahájení **/
+
+.termín h2 {
+  margin-top: 3%;
+  font-family: Arial;
+}
+
+.termín p {
+  margin-top: 3rem;
+  margin-left: 36rem;
+  font-size: 25px;
+  font-family: Arial;
+  width: 40%;
+}
+
+/*** pro koho je kroužek ***/
+
+.pro-koho h2 {
+  margin-top: 5%;
+}
+
+.pro-koho p {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 3%;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+/*** zápisné *****/
+
+.Zápisné h2 {
+  margin-top: 3%;
+}
+
+.Zápisné p {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 30%;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+/**** vedení *****/
+
+.vedení h2 {
+  margin-top: 3%;
+}
+
+.vedení p {
+  margin-top: 5rem;
+  width: 50%;
+  margin-left: 30%;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+/******** Naše úspěchy *****/
+
+.nadpis-úspěch {
+  font-size: 55px;
+  font-family: Arial;
+  color: #0d5c63;
+  margin-bottom: 5rem;
+}
+
+.Naše-úspěchy h2 {
+  margin-top: 10rem;
+}
+
+.Naše-úspěchy h3 {
+  margin-left: 40%;
+  margin-top: 7%;
+  font-family: Arial;
+  font-size: 45px;
+  color: #0d5c63;
+}
+
+.Naše-úspěchy p {
+  width: 30%;
+  margin-top: 3%;
+  float: right;
+  font-family: Arial;
+  font-size: 25px;
+  margin-right: 15%;
+}
+
+.obrázky-místo {
+  display: inline-block;
+  width: 50%;
+}
+
+.úspěch1 {
+  width: 55%;
+  float: left;
+  margin-left: 20%;
+
+  border-radius: 20px;
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+.úspěch2 {
+  width: 55%;
+  float: left;
+  border-radius: 20px;
+  opacity: 0.5;
+  transform: scale(1.1);
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.úspěch3 {
+  width: 55%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 20%;
+  border-radius: 20px;
+  opacity: 0.5;
+  transform: scale(1.1);
+  margin-bottom: 10%;
+}
+
+.fll-logo {
+  width: 25%;
+  float: right;
+  display: none;
+}
+
+.úspěch1:hover {
+  transition: transform 1s, opacity 1s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.úspěch2:hover {
+  transition: transform 1s, opacity 1s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.úspěch3:hover {
+  transition: transform 1s, opacity 1s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+/***** plán akcí ********/
+
+.nadpis-plán {
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  font-family: Arial;
+  font-size: 25px;
+  color: #fff;
+  background: #0d5c63;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 2.5%;
+}
+
+.velká-slova {
+  font-size: 30px;
+}
+
+.paragraf-plán {
+  position: absolute;
+  width: 14%;
+  margin-top: 10rem;
+  margin-left: 5.5%;
+
+  font-size: 25px;
+  font-family: Arial;
+  border: 2px solid #0d5c63;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/***** třetí stránka *******/
+
+/**** sponzoring ****/
+
+.nadpis-sponzor {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 0;
+  font-size: 75px;
+  font-family: Arial;
+  color: #0d5c63;
+}
+
+/******* button ***/
+
+.btn4 {
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 25%;
+}
+
+/**** podpora *****/
+
+/*** co uvítáme ****/
+
+.co-uvítáme h2 {
+  text-align: center;
+  width: 18%;
+  font-family: Arial;
+  font-size: 25px;
+  color: #fff;
+  background: #0d5c63;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 2%;
+  margin-bottom: 0 !important;
+}
+
+.co-uvítáme p {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+  border: 2px solid #0d5c63;
+  padding: 10px;
+  border-radius: 20px;
+  float: left;
+  width: 14%;
+  margin-left: 4%;
+  position: absolute;
+}
+
+/***** ukázka cen ****/
+
+.ukázka-cen h2 {
+  text-align: center;
+  width: 20%;
+
+  font-family: Arial;
+  font-size: 25px;
+  color: #fff;
+  background: #0d5c63;
+  padding: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.ukázka-cen p {
+  text-align: center;
+  width: 15%;
+  float: right;
+  font-size: 24px;
+  font-family: Arial;
+  border: 2px solid #0d5c63;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/********* čtvrtá strana *****/
+
+.odkazy-nadpis h1 {
+  font-family: Arial;
+  color: #0d5c63;
+}
+
+/**** button 5 ****/
+
+/**** odkaz na facebook****/
+
+.facebook-odkaz p {
+  margin-top: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: Arial;
+  margin-bottom: 0;
+}
+
+/*** url adresa a icona ***/
+
+.facebook-odkaz-text {
+  text-decoration: none;
+  color: #0d5c63;
+  font-size: 40px;
+  font-family: Arial;
+  font-weight: bold;
+
+  margin-top: 5rem;
+}
+
+.odkaz-url-icon1 img {
+  width: 5%;
+  margin-top: 3.5rem;
+  margin-right: 1rem;
+}
+
+.facebook-odkaz-text:link,
+.facebook-odkaz-text:visited {
+  color: #0d5c63;
+
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.facebook-odkaz-text:hover,
+.facebook-odkaz-text:active {
+  padding-bottom: 0.5rem;
+  height: 3%;
+  border-bottom: 2px solid #dc4f00;
+  transition: border-bottom 1s;
+}
+
+/****** odkazy na soutěže *****/
+
+.souteze-nadpis {
+  margin-top: 10%;
+}
+
+.souteze-popis {
+  margin-left: 35%;
+  margin-top: 1%;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.souteze-odkaz {
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 30px;
+  color: #0d5c63;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 35%;
+}
+
+.souteze-odkaz:link,
+.souteze-odkaz:visited {
+  color: #0d5c63;
+
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.souteze-odkaz:hover,
+.souteze-odkaz:active {
+  border-bottom: 2px solid #dc4f00;
+  transition: border-bottom 1s;
+}
+
+/**** Programy a odkaz na ně *****/
+
+.programy-nadpis {
+  margin-top: 8%;
+  margin-left: 0%;
+}
+
+.programy-odkaz {
+  margin-top: 3%;
+  font-family: Arial;
+  font-size: 25px;
+  margin-left: 40%;
+}
+
+.programy-odkaz a {
+  font-weight: bold;
+  color: #0d5c63;
+}
+
+/**** zajímavé weby ******/
+
+.zajímavé-weby-nadpis {
+  margin-top: 6%;
+  margin-left: 0%;
+}
+
+.zajímavé-weby-popis {
+  font-size: 25px;
+  font-family: Arial;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+
+.zajímavé-weby-popis a {
+  font-size: 25px;
+  color: #0d5c63;
+  font-weight: bold;
+}
+
+/**** mezera na scroll ***/
+
+.mezera {
+  width: 100%;
+  height: 50px;
+}
+
+/***** pátá strana ***/
+
+.gallery-hlavní-nadpis {
+  display: inline-block;
+  width: 70%;
+}
+
+.gallery-nadpis {
+  font-size: 80px;
+  color: #0d5c63;
+  font-family: Arial;
+  margin-top: 110px;
+  margin-bottom: 25px;
+  margin-left: 20%;
+  display: inline-block;
+}
+
+/**** gallery plán ****/
+
+/* posice celé gallerie */
+.container {
+  position: relative;
+}
+
+/* nastavení gallerie */
+.mySlides {
+  display: none;
+  width: 70%;
+  margin-left: 30%;
+}
+
+/* úprava tlačítek next a prev */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* šířka postavení tlačítek*/
+.next {
+  right: 35%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+.prev {
+  left: 30%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+/* pozice tlačítek */
+.next {
+  border-radius: 3px 0 0 3px;
+}
+
+/* pozadí next prev */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* čísla  */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*zarovnání */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**** konec gallery plán***/
+
+/** nadpis gallery plány***/
+
+.plan-nadpis {
+  font-size: 35px;
+  margin-right: 4%;
+}
+
+.popis-plánu {
+  font-family: Arial;
+  font-size: 20px;
+
+  margin-bottom: 60px;
+}
+
+/*** nadpis gallery loga**/
+
+.logo-nadpis {
+  margin-top: 50px;
+  margin-left: -3%;
+}
+
+.popis-log {
+  font-family: Arial;
+  font-size: 20px;
+
+  margin-bottom: 60px;
+}
+
+/**  gallerie logo***/
+
+/* pozice celé gallerie */
+.container2 {
+  position: relative;
+}
+
+/* nastavení gallerie */
+.mySlides2 {
+  display: none;
+  width: 70%;
+  margin-left: 30%;
+}
+
+/* úprava tlačítek next a prev */
+.prev2,
+.next2 {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* šířka postavení tlačítek*/
+.next2 {
+  right: 35%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+.prev2 {
+  left: 30%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+/* rámeček pravého tlačítka */
+.next2 {
+  border-radius: 3px 0 0 3px;
+}
+
+/* pozadí next prev */
+.prev2:hover,
+.next2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* čísla  */
+.numbertext2 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*zarovnání */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*** konec gallerie logo**/
+
+/*** tabule popisy ***/
+
+.nadpis-tabule {
+  margin-top: 50px;
+  margin-left: -3%;
+}
+
+.popis-tabule {
+  font-family: Arial;
+  font-size: 20px;
+  width: 60%;
+
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/**** gallerie tabule****/
+
+/* pozice celé gallerie */
+.container3 {
+  position: relative;
+}
+
+/* nastavení gallerie */
+.mySlides3 {
+  display: none;
+  width: 70%;
+  margin-left: 30%;
+}
+
+/* úprava tlačítek next a prev */
+.prev3,
+.next3 {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* šířka postavení tlačítek*/
+.next3 {
+  right: 35%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+.prev3 {
+  left: 30%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+/* rámeček pravého tlačítka */
+.next3 {
+  border-radius: 3px 0 0 3px;
+}
+
+/* pozadí next prev */
+.prev3:hover,
+.next3:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* čísla  */
+.numbertext3 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*zarovnání */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*** konec gallerie tabule***/
+
+/**** roboti popis a nadpis***/
+
+.roboti-nadpis {
+  margin-top: 50px;
+  margin-left: -3%;
+}
+
+.roboti-popis {
+  font-family: Arial;
+  font-size: 20px;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/**** gallerie roboti ******/
+
+/* pozice celé gallerie */
+.container4 {
+  position: relative;
+}
+
+/* nastavení gallerie */
+.mySlides4 {
+  display: none;
+  width: 70%;
+  margin-left: 30%;
+}
+
+/* úprava tlačítek next a prev */
+.prev4,
+.next4 {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* šířka postavení tlačítek*/
+.next4 {
+  right: 35%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+.prev4 {
+  left: 30%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+/* rámeček pravého tlačítka */
+.next4 {
+  border-radius: 3px 0 0 3px;
+}
+
+/* pozadí next prev */
+.prev4:hover,
+.next4:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* čísla  */
+.numbertext4 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*zarovnání */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*** konec gallerie roboti*****/
+
+/**** robotic day ******/
+
+.robotic-day-nadpis {
+  margin-top: 50px;
+  margin-left: -4%;
+}
+
+.robotic-day-popis {
+  margin-left: 38.5%;
+  font-family: Arial;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/**** gallerie robotic day*****/
+
+/* pozice celé gallerie */
+.container5 {
+  position: relative;
+}
+
+/* nastavení gallerie */
+.mySlides5 {
+  display: none;
+  width: 70%;
+  margin-left: 30%;
+}
+
+/* úprava tlačítek next a prev */
+.prev5,
+.next5 {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* šířka postavení tlačítek*/
+.next5 {
+  right: 35%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+.prev5 {
+  left: 30%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+/* rámeček pravého tlačítka */
+.next5 {
+  border-radius: 3px 0 0 3px;
+}
+
+/* pozadí next prev */
+.prev5:hover,
+.next5:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* čísla  */
+.numbertext5 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*zarovnání */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*** konec gallerie robotic day*****/
+
+/**** robotem rovne popisy***/
+
+.robotem-rovne-nadpis {
+  margin-top: 50px;
+  margin-left: -4%;
+}
+
+.robotem-rovne-popis {
+  font-family: Arial;
+  font-size: 20px;
+  width: 35%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/**** gallerie robotem rovne*****/
+
+/* pozice celé gallerie */
+.container6 {
+  position: relative;
+}
+
+/* nastavení gallerie */
+.mySlides6 {
+  display: none;
+  width: 70%;
+  margin-left: 30%;
+}
+
+/* úprava tlačítek next a prev */
+.prev6,
+.next6 {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* šířka postavení tlačítek*/
+.next6 {
+  right: 35%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+.prev6 {
+  left: 30%;
+  margin-top: -50px;
+  top: 55%;
+}
+
+/* rámeček pravého tlačítka */
+.next6 {
+  border-radius: 3px 0 0 3px;
+}
+
+/* pozadí next prev */
+.prev6:hover,
+.next6:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* čísla  */
+.numbertext6 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*zarovnání */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*** konec gallerie robotic day*****/
+
+/**** scroll mezera pro robotic day v foto-alba***/
+
+.mezera-robotic-day {
+  height: 30px;
+}
+
+/*** výsledky nadpis**/
+
+.výsledky-nadpis {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 15%;
+  font-size: 85px;
+  font-family: Arial;
+  color: #0d5c63;
+  margin-bottom: 0;
+}
+
+/*** výsledky tlačítko  7 ***/
+
+.btn7 {
+  margin-top: 3%;
+  margin-left: 22%;
+}
+
+/*** nadpis tabulí****/
+
+.výsledky-tabule {
+  margin-top: 50px;
+}
+
+/*** popis tabule ***/
+
+.popis-výsledků {
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/**** obrázek tabule****/
+
+.obrázek-výsledky img {
+  width: 14%;
+  height: 14%;
+  margin-bottom: 15rem;
+}
+
+/*** mezera ****/
+
+.mezera--btn7 {
+  height: 50px;
+}
+
+/**** responzivita ikon***/
+
+/**** ikony *****/
+
+.cross {
+  display: none;
+
+  position: absolute;
+  margin-right: 17px;
+  margin-top: 7px;
+  right: 10px;
+  z-index: 251;
+  text-decoration: none;
+}
+
+.hamburger {
+  position: absolute;
+  margin-right: 10px;
+  margin-top: 7px;
+  right: 10px;
+  z-index: 251;
+  position: fixed;
+  text-decoration: none;
+  display: none;
+}
+
+/**** barva #0D5C63 ****/
+
+/*****************************  stop floating***********/
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/*!! footer  */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  height: 2rem;
+  padding-top: 8px !important;
+  font-weight: 500;
+}
+.kdy {
+  margin-bottom: 5rem;
+}
+
+/*?? frame set */
+.rámeček {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 2rem !important;
+}
+
+/*?? main h1*/
+.h1 {
+  font-size: 6rem !important;
+  margin-left: 0 !important;
+  margin-bottom: 3rem !important;
+  margin-right: 0 !important;
+  margin-top: 10rem !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/*?? main h2*/
+.h2 {
+  font-size: 3rem !important;
+}
+
+/*!! btns and btn setup*/
+.btns {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.bottom {
+  margin-bottom: 5rem;
+}
+/*!! odkazy flex (zarovnání do středu)  */
+.flex {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-left: 0 !important;
+}
+/*!!! margin zero*/
+.mrg0 {
+  margin-left: 0 !important;
+}
+
+.mrg-top {
+  margin-top: 15rem;
+}
+.jq--naše-úspěchy {
+  width: 100%;
+  height: 5rem;
+}
+/*!! space in photo alba*/
+.space {
+  margin-bottom: 15rem;
+}
+/*?? photo album paragraf width 35% */
+.wd35 {
+  width: 35% !important;
+  font-size: 25px;
+  font-weight: 400 !important;
+}
+.wd30 {
+  width: 35% !important;
+  font-size: 25px;
+  font-weight: 400 !important;
+}
+/*!! better left margin for photo album paragraf*/
+.mgr-l {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+/*?? sponzoring h3 podnadpis barevný odlišný od paragrafu*/
+.h3 {
+  font-size: 25px;
+  font-family: Arial;
+  color: #0d5c63;
+}
+/*!! sponzoring 3 tabulky (sloupce) */
+
+.parag {
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.h4 {
+  color: #dc4f00;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.sponz-m {
+  background-color: #caf0f8;
+}
+.mgr-tp {
+  margin-top: 8rem;
+  font-size: 50px !important;
+}
+.mgr-bottom {
+  margin-bottom: 15rem;
+}
+.paragraf2 {
+  display: inline-block;
+  font-size: 25px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*?? h3 a h4 sponzoring*/
+
+.npd {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nl {
+  width: 15%;
+  margin-right: 11.5%;
+  font-family: Arial;
+  font-size: 25px;
+  color: #fff;
+  background: #0d5c63;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+.nr {
+  width: 15%;
+  font-size: 25px;
+  color: #fff;
+  background: #0d5c63;
+  border-radius: 20px;
+  text-align: center;
+  height: 4rem;
+  padding: 20px;
+  margin-left: 11%;
+}
+.nm {
+  width: 30%;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 3rem;
+  color: #0d5c63;
+  font-size: 30px;
+}
+.nm:after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 2px solid #dc4f00;
+  margin: 10px auto;
+}
+
+/*!! paragrafy sponzoring */
+.pl {
+  width: 13%;
+  margin-right: 10%;
+  text-align: left;
+  border: 2px solid #0d5c63;
+  padding: 20px;
+  border-radius: 20px;
+  height: 20% !important;
+}
+.pr {
+  width: 13%;
+  text-align: center;
+  border: 2px solid #0d5c63;
+  padding: 20px;
+  margin-left: 10%;
+  border-radius: 20px;
+  height: 20% !important;
+}
+.pm {
+  width: 34%;
+  margin-bottom: 15rem;
+}
+

@@ -1,0 +1,252 @@
+@media only screen and (max-width: 1165px) {
+	.rámeček {
+		border: transparent;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+	
+
+@media only screen and (max-width: 1032px) {
+	
+	.btnq {
+		margin-left: 50px;
+	}
+}
+
+
+@media only screen and (max-width: 605px) {
+
+	.nadpis-stránky h1 {
+		margin-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+
+	.souteze-popis {
+		margin-left: 20%;
+	}
+
+	.souteze-odkaz {
+		margin-left: 25%;
+	}
+}
+
+
+@media only screen and (max-width: 630px) {
+
+	.souteze-popis {
+		margin-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 755px) {
+
+	.zajímavé-weby-popis  {
+		margin-left: 20%;
+	}
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+	.programy-odkaz  {
+		margin-left: 33%;
+	}
+}
+
+
+@media only screen and (max-width: 640px) {
+
+	.programy-odkaz  {
+		margin-left: 30%;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+
+	.facebook-odkaz p  {
+		margin-left: 20%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	
+	.odkaz-url-icon1 img {
+		margin-left: 30%;
+	}
+}
+
+
+@media only screen and (max-width: 550px) {
+	.vedení p {
+		margin-left: 22%;
+	}
+
+
+	.nadpis-organizace{
+		margin-left: 15%;
+	}
+
+}
+
+
+@media only screen and (max-width: 1116px) {
+	.plán-akcí {
+		display: none;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+	.btn6 {
+		margin-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 630px) {
+	.nadpis-sponzor {
+		margin-left: 5%;
+	}
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	.nadpis-sponzor {
+		margin-top: 15%;
+	}
+
+
+	.btn4 {
+		margin-left: 15%;
+	}
+
+}
+
+@media only screen and (max-width:  1060px) {
+
+	.co-uvítáme{
+		display: none;
+	}
+	.ukázka-cen {
+		display: none;
+	}
+	.podpora h2 {
+		margin-left: 20%;
+		width: 70%;
+	}
+} 
+
+@media only screen and (max-width:  692px) {
+	.vyokno p {
+		font-size: 38px;
+		text-align: center;
+	}
+	.potvrzení {
+		font-size: 25px;
+		text-align: center;
+		margin-left: 36%;
+
+	
+	}
+} 
+
+@media only screen and (max-width: 1000px) {
+	.h1 {
+		font-size: 4rem !important;
+	}
+	.btn1, .btn2 {
+		margin-left: 2rem !important;
+		margin-right: 2rem !important;
+	}
+	
+}
+
+@media only screen and (max-width: 810px) {
+	.btn1, .btn2 {
+		margin-left: 1rem;
+		
+	}
+	
+}
+
+@media only screen and (max-width: 700px) {
+	.btn2 {
+		display: none;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

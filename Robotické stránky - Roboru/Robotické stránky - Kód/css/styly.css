@@ -1,0 +1,231 @@
+/*?? Main Css*/
+/*!! flex */
+.center {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.flex {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/* container */
+.row {
+  width: 85%;
+  margin: 0 auto;
+}
+/*!! Backgrounds*/
+.bg1 {
+  background-image: url(../resized_top_images/Backgrounds/fotka9.jpg);
+  background-position: right;
+}
+.bg2 {
+  background-image: url(../resized_top_images/Backgrounds/fotka1.jpg);
+}
+.bg3 {
+  background-image: url(../resized_top_images/Backgrounds/fotka2.jpg);
+}
+.bg4 {
+  background-image: url(../resized_top_images/Backgrounds/fotka8.jpg);
+}
+.bg5 {
+  background-image: url(../resized_top_images/Backgrounds/fotka4.jpg);
+}
+.bg6 {
+  background-image: url(../resized_top_images/Backgrounds/fotka5.jpg);
+}
+.bg7 {
+  background-image: url(../resized_top_images/Backgrounds/fotka7.jpg);
+}
+.bg8 {
+  background-image: url(../resized_top_images/Backgrounds/fotka6.jpg);
+}
+
+/*?? Background*/
+.main_bg {
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  display: inline-block;
+  z-index: 2;
+}
+
+/*??pozadí 1*/
+.background1 {
+  width: 100%;
+  height: 45px;
+  background-color: var(--basic-color);
+  position: fixed;
+  display: none;
+}
+
+/*?? pozadí 2 ***/
+
+.background2 {
+  width: 100%;
+  height: 300px;
+  background-color: var(--basic-color);
+  z-index: 250;
+  position: fixed;
+  opacity: 85%;
+  display: none;
+}
+
+/*!! Nav */
+
+nav ul {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  margin: 0px auto;
+  z-index: 250;
+  background-color: var(--basic-color);
+  display: flex;
+  justify-content: center;
+  left: 0;
+  top: 0;
+}
+
+/*!! Logo in nav bar*/
+.logo img {
+  height: 45px;
+  overflow: hidden;
+}
+
+nav ul li {
+  margin-left: 5rem;
+  margin-top: 0.5rem;
+}
+.active {
+  border-bottom: 1px solid var(--hovered-color) !important;
+}
+
+nav ul li a {
+  color: var(--light-color);
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: var(--light-color);
+
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+  color: var(--yellow-color);
+}
+
+/*?? Main title*/
+.MainTitle {
+  color: var(--light-color);
+  z-index: 2;
+  margin-top: 7rem;
+  height: 5rem !important;
+}
+.btn1 {
+  font-size: 1.75rem;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 2rem;
+  color: var(--light-color);
+  height: 2rem !important;
+  text-align: center;
+  display: inline !important;
+  text-decoration: none !important;
+}
+.btn1:nth-child(2) {
+  margin-left: 6rem;
+}
+
+/*!! Button for Photo gallery page*/
+#btn2 {
+  margin-left: 6rem;
+}
+
+/*! not bold strong tag !*/
+.not_bold {
+  font-weight: 500;
+}
+/*!! Marked text */
+.M_T {
+  font-size: 1.2rem;
+}
+/*!! Space */
+.spc {
+  margin-bottom: 15rem !important;
+}
+
+/*!! Title */
+.title {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 5rem;
+  font-weight: 500;
+  color: var(--basic-color);
+}
+.p {
+  width: 40%;
+  font-family: "Work Sans", sans-serif;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*!! homework */
+.p_hm {
+  margin-top: 2rem;
+  margin-bottom: 15rem;
+}
+/*!! Result img section*/
+.ResultImg {
+  margin-bottom: 15rem;
+}
+/*!! links div space*/
+.links_div {
+  margin-bottom: 15rem;
+}
+.title_link {
+  text-align: center;
+}
+/*!! Link title h1*/
+.L_title {
+  margin-bottom: 3rem;
+}
+.title_link {
+  margin-top: 2rem;
+}
+.label_1 {
+  margin-top: 2rem !important;
+}
+.link {
+  margin-top: 1rem;
+}
+.label_2 {
+  margin-top: 1rem !important;
+}
+.flink {
+  font-size: 1.75rem;
+}
+
+/*!! Photo galerie*/
+.ph_p {
+  margin-bottom: 6rem;
+}
+
+/*!! footer  */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  height: 2rem;
+  padding-top: 8px !important;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif !important;
+}
