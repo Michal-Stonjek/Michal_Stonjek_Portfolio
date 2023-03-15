@@ -1,0 +1,40 @@
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+ 
+}
+.nav ul a {
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.main-link{
+    margin-left: 2rem;
+    
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.color-link{
+    color: var(--secondary-color) !important;
+    margin-left: 2rem !important;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+:root {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;                   /*? color setup */
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --green-color: #21db8e;
+}

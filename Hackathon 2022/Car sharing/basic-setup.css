@@ -1,0 +1,137 @@
+body {
+  background-color: var(--green-color) !important;
+  font-family: var(--font-base) !important;
+}
+
+.whitebg {
+  background-color: var(--white-color);
+}
+
+.primarybg {
+  background-color: var(--primary-color);
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  padding: 4rem 2rem;
+}
+@media screen and (max-width: 450px) {
+  .wrapper {
+    padding: 4rem 1rem 2rem;
+  }
+}
+
+.copyright {
+  width: 100%;
+  padding: 2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.copyright p {
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.head-text {
+  font-size: 2.75rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--black-color);
+  text-transform: capitalize;
+}
+.head-text span {
+  color: var(--secondary-color);
+}
+@media screen and (min-width: 2000px) {
+  .head-text {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .head-text {
+    font-size: 2rem;
+  }
+}
+
+
+
+.p-text {
+  font-size: 0.8rem;
+  text-align: left;
+  color: var(--gray-color);
+  
+}
+@media screen and (min-width: 2000px) {
+  .p-text {
+    font-size: 1.75rem;
+  }
+}
+
+.bold-text {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--black-color);
+  text-align: left;
+}
+@media screen and (min-width: 2000px) {
+  .bold-text {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bold-text {
+    font-size: 0.9rem;
+  }
+}
+
+/** navigation bar **/
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+ 
+}
+.nav ul a {
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.main-link{
+    margin-left: 2rem;
+    color: var(--secondary-color)!important;
+    text-decoration: none;
+    font-size: 2rem;
+    
+    
+}
+
+.secondary-link{
+  color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 2rem;
+    background-color: red;
+    padding: 5px;
+    border-radius: 15%;
+
+}
