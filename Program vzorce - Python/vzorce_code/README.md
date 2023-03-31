@@ -1,1 +1,1 @@
-Zde je zdrojový kód kalkulačky na fyzikální vzorce
+# Program v pythonu - kalkulačka na vzorce - zdrojový kód
